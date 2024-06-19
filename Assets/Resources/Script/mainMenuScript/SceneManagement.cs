@@ -13,6 +13,6 @@ public class PindahScene : MonoBehaviour
     public void changeToIngameScene()
     {
         SceneManager.LoadScene("inGameScene");
-        Debug.Log("inGameScene Loaded")
+        Debug.Log("inGameScene Loaded");
     }
 }
