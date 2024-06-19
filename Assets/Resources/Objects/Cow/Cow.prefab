@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5253321357368423717
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.32
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_Name
+      value: Cow
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_TagString
+      value: cow
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860508890853313812, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 186977775ba96a34386dc33afc1b4469, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5198746268133684193}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6291979272501755084}
+    - targetCorrespondingSourceObject: {fileID: -6155355343208041548, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2943129873228295995}
+  m_SourcePrefab: {fileID: 100100000, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+--- !u!1 &4910861075339528308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+  m_PrefabInstance: {fileID: 5253321357368423717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5198746268133684193
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4910861075339528308}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 30, y: 46.808014, z: 41.02331}
+  m_Center: {x: 0, y: 20.281906, z: 5.511656}
+--- !u!114 &6291979272501755084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4910861075339528308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 583d112fda32b46f1a957f3d65519652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CowHealth: 300
+  cowTarget: cow
+  foodProjectile: projectile
+  scoreCTRL: {fileID: 0}
+--- !u!1 &7094369106746590865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6155355343208041548, guid: 17ebb65de380b3347a7bd854e0fed04c, type: 3}
+  m_PrefabInstance: {fileID: 5253321357368423717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2943129873228295995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094369106746590865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 583d112fda32b46f1a957f3d65519652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CowHealth: 300
+  cowTarget: cow
+  foodProjectile: projectile
+  scoreCTRL: {fileID: 0}

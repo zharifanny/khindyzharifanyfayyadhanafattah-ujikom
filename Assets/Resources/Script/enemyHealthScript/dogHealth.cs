@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class cowHealth : MonoBehaviour
+public class DogHealth : MonoBehaviour
 {
-    public int CowHealth = 300;
+    public int dogHealth = 100;
     // public TextMeshProUGUI scoreText;
-    public string cowTarget = "cow";
+    public string dogTarget = "dog";
     public string foodProjectile = "projectile";
     public ScoreController scoreCTRL;
 
     // Start is called before the first frame update
     void Start()
     {
-        UpdateCowHealth();
+        UpdatedogHealth();
         
     }
 
     // Update is called once per frame
-    void UpdateCowHealth()
+    void UpdatedogHealth()
     {
         // if (scoreText != null)
         // {
@@ -27,11 +27,12 @@ public class cowHealth : MonoBehaviour
             
         // }
 
-        if (CowHealth <= 0)
+        if (dogHealth <= 0)
         {
             Destroy(gameObject);
-            Debug.Log("Cow Destroyed");
-            scoreCTRL.point += 5;
+            Debug.Log("dog Destroyed");
+            //Add score buat dog
+            scoreCTRL.point += 2;
             scoreCTRL.UpdateScore();
             Debug.Log("Score Added");
         }
@@ -43,10 +44,10 @@ public class cowHealth : MonoBehaviour
     {
         if (other.CompareTag(foodProjectile))
         {
-            Debug.Log("Kena");
+            Debug.Log("si dog Kena");
             
-            CowHealth -= 25;
-            UpdateCowHealth();
+            dogHealth -= 25;
+            UpdatedogHealth();
             
         }
 
