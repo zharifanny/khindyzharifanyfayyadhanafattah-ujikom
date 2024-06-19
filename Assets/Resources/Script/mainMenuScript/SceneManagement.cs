@@ -35,5 +35,11 @@ public class PindahScene : MonoBehaviour
         }
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quit game");
+    }
+
 
 }

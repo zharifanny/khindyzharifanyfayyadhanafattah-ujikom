@@ -83,13 +83,13 @@ PrefabInstance:
       addedObject: {fileID: 2735883698872789567}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 52e146b2d1f9e5e41bcebd2ebea4e0e1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2514993927755993351}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 52e146b2d1f9e5e41bcebd2ebea4e0e1, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 357069255662611805}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 52e146b2d1f9e5e41bcebd2ebea4e0e1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3204654958128902288}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 52e146b2d1f9e5e41bcebd2ebea4e0e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5814847560496065986}
   m_SourcePrefab: {fileID: 100100000, guid: 52e146b2d1f9e5e41bcebd2ebea4e0e1, type: 3}
 --- !u!1 &6238875468361679329 stripped
 GameObject:
@@ -136,21 +136,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 8118742600976756704, guid: 58d982effc55c4f2fb4f6783a6a16b23, type: 3}
---- !u!114 &2514993927755993351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6238875468361679329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d408d1e14763429982f97ce02be8766, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: 0
-  scoreText: {fileID: 0}
-  targetTag: triggerAddScore
 --- !u!82 &357069255662611805
 AudioSource:
   m_ObjectHideFlags: 0
@@ -259,5 +244,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 713ca0a353ccc4d6c84bf7354018db29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: 60
+  countdownTime: 2
   countdownText: {fileID: 0}
+  cameraChange: {fileID: 5814847560496065986}
+--- !u!114 &5814847560496065986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6238875468361679329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e41eacc45bdc48b88dcb8ffae41ee21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameras:
+  - {fileID: 0}
+  - {fileID: 0}
