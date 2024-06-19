@@ -1,0 +1,3 @@
+-Belum ada animasi implemented
+-Belum ada Enemy spawner + Randomizer
+-Belum ada Game over screen
