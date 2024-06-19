@@ -50,5 +50,11 @@ public class DeerHealth : MonoBehaviour
             
         }
 
+                if (other.CompareTag("destroyer"))
+        {
+            Destroy(gameObject);
+
+        }
+
     }
 }

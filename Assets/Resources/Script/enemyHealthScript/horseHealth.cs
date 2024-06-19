@@ -51,5 +51,12 @@ public class HorseHealth : MonoBehaviour
             
         }
 
+        if (other.CompareTag("destroyer"))
+        {
+            Destroy(gameObject);
+            Debug.Log("Destroyed");
+
+        }
+
     }
 }

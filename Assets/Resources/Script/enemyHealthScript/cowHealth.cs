@@ -9,6 +9,8 @@ public class cowHealth : MonoBehaviour
     public int CowHealth = 300;
     // public TextMeshProUGUI scoreText;
     public string cowTarget = "cow";
+    public string Destroyer = "destroyer";
+
     public string foodProjectile = "projectile";
     public ScoreController scoreCTRL;
 
@@ -51,6 +53,15 @@ public class cowHealth : MonoBehaviour
             CowHealth -= 25;
             UpdateCowHealth();
             
+        }
+
+        if (other.CompareTag(Destroyer))
+        {
+            Destroy(gameObject);
+                        Debug.Log("Kena Destroy");
+
+            
+
         }
 
     }

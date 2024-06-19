@@ -11,6 +11,7 @@ TagManager:
   - horse
   - deer
   - player
+  - destroyer
   layers:
   - Default
   - TransparentFX

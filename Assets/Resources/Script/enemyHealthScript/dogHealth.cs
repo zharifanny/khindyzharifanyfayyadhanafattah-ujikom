@@ -51,5 +51,11 @@ public class DogHealth : MonoBehaviour
             
         }
 
+                if (other.CompareTag("destroyer"))
+        {
+            Destroy(gameObject);
+
+        }
+
     }
 }
