@@ -17,7 +17,7 @@ public class ScoreController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void UpdateScore()
+    public void UpdateScore()
     {
         if (scoreText != null)
         {
@@ -35,6 +35,8 @@ public class ScoreController : MonoBehaviour
             point += 1;
             UpdateScore();
         }
+
+        
 
     }
 }

@@ -65,7 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Resources/Script/ScoreController.cs" />
+    <Compile Include="Assets/Resources/Script/EnemyHealth.cs" />
     <Compile Include="Assets/Resources/Script/PlayerController.cs" />
+    <Compile Include="Assets/Resources/Script/FoodProjectile.cs" />
     <Compile Include="Assets/Resources/Script/SpawnProjectile.cs" />
   </ItemGroup>
   <ItemGroup>
