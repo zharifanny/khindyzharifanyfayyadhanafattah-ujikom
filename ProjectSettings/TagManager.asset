@@ -6,6 +6,10 @@ TagManager:
   tags:
   - projectile
   - triggerAddScore
+  - cow
+  - dog
+  - horse
+  - deer
   layers:
   - Default
   - TransparentFX

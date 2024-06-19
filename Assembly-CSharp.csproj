@@ -64,6 +64,7 @@
     <Analyzer Include="/Applications/2022.3.16f1/2022.3.31f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Resources/Script/EnemyHealth2.cs" />
     <Compile Include="Assets/Resources/Script/ScoreController.cs" />
     <Compile Include="Assets/Resources/Script/EnemyHealth.cs" />
     <Compile Include="Assets/Resources/Script/mainMenuScript/SceneManagement.cs" />
