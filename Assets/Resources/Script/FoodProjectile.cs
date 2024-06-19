@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class FoodProjectile : MonoBehaviour
 {
+    AudioSource audioData;
+    
     public int hungerValue = 25;
+    
 
     //tidak dipakai
     public string deerTag = "deer";
@@ -15,6 +19,7 @@ public class FoodProjectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         Destroy(gameObject, 3);
         Debug.Log("Food Destroyed");  
     }
@@ -25,12 +30,10 @@ public class FoodProjectile : MonoBehaviour
         
     }
 
-    // void OnTriggerEnter(Collider other)
-    // {
-    //     if (other.CompareTag(deerTag))
-    //     {
-    //         enemyHealth2.enemyHealth -= 25;
-    //         Debug.Log("kena deer");
-    //     }
-    // }
+    void OnTriggerEnter(Collider other)
+    {
+        audioData = GetComponent<AudioSource>();
+        audioData.Play(0);
+        Debug.Log("Termakan");
+    }
 }

@@ -17,6 +17,7 @@ public class cowHealth : MonoBehaviour
     {
         UpdateCowHealth();
         anim = gameObject.GetComponent<Animation>();
+        anim.Play("walk");
         
     }
 
