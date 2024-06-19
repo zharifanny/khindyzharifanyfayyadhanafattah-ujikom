@@ -14,6 +14,7 @@ public class FoodProjectile : MonoBehaviour
     public string deerTag = "deer";
     public string dogTag = "dog";
     public string horseTag = "horse";
+    public string cowTag = "cow";
 
     public EnemyHealth2 enemyHealth2;
     // Start is called before the first frame update
@@ -35,5 +36,28 @@ public class FoodProjectile : MonoBehaviour
         audioData = GetComponent<AudioSource>();
         audioData.Play(0);
         Debug.Log("Termakan");
+        
+        if (other.CompareTag(cowTag))
+        {
+            Destroy(gameObject);
+        }
+
+        if (other.CompareTag(dogTag))
+        {
+            Destroy(gameObject);
+        }
+
+        if (other.CompareTag(horseTag))
+        {
+            Destroy(gameObject);
+        }
+
+        if (other.CompareTag(deerTag))
+        {
+            Destroy(gameObject);
+        }
+
+        
+
     }
 }

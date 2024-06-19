@@ -5,7 +5,7 @@ using TMPro;
 
 public class cowHealth : MonoBehaviour
 {
-    private Animation anim;
+    public Animation anim;
     public int CowHealth = 300;
     // public TextMeshProUGUI scoreText;
     public string cowTarget = "cow";
